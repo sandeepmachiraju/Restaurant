@@ -1,7 +1,7 @@
 import java.util.Date;
 
 /* Name: Srinivasa Sai Sandeep Machiraju
-   Date: Nov 5, 2016 
+   Date: Nov 8, 2016 
    Description:(This class is of abstract form)
    It is the super class of waiter and chef. Where all the common details like name,address are saved here
  */
@@ -16,6 +16,7 @@ String eState;
 String eZip;
 Date startDate;
 int yearsOfExperience;
+double salary;  // to calculate salary
 
 public Employee(String sSN, String firstName, String lastName, String eStreet,
 		String eCity, String eState, String eZip, Date startDate,
