@@ -16,7 +16,11 @@ String eState;
 String eZip;
 Date startDate;
 int yearsOfExperience;
+<<<<<<< HEAD
+int salary;  // to calculate salary
+=======
 float salary;  // to calculate salary
+>>>>>>> 68403f96d069671d3d8261d2728936d5052e719c
 
 public Employee(String sSN, String firstName, String lastName, String eStreet,
 		String eCity, String eState, String eZip, Date startDate,
