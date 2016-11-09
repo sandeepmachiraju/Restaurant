@@ -11,6 +11,7 @@ public class Fulltime extends Waiter{
 	
 double annualSalary;
 boolean union;
+int temp;//for temp variable (Sandeep)
 
 public Fulltime(String sSN, String firstName, String lastName, String eStreet,
 		String eCity, String eState, String eZip, Date startDate,
